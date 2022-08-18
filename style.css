@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@keyframes backgrounds {
+
+    from {  
+        background-position: 100%;
+
+    }
+    
+    to{
+        background-position: 0%;
+    }
+
+}
+@keyframes fly{
+    0%{
+        transform: translateY(0);
+    }
+
+
+ 
+
+
+    100% {
+        transform: translateY(50px);
+    }
+
+ 
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{ 
+    background-size: 300% 200%;
+    animation: backgrounds 9s  alternate infinite;
+    background-image: radial-gradient(circle at -20.44% 56.16%, #0075a7 0, #0075b8 4.55%, #0074c7 9.09%, #0073d4 13.64%, #0071de 18.18%, #006ee5 22.73%, #006aea 27.27%, #0065ec 31.82%, #005fea 36.36%, #0057e6 40.91%, #004ede 45.45%, #4d42d4 50%, #7433c7 54.55%, #8f1db9 59.09%, #a300a8 63.64%, #b30097 68.18%, #bf0084 72.73%, #c70071 77.27%, #cc005e 81.82%, #ce004b 86.36%, #cd0039 90.91%, #ca0026 95.45%, #c40012 100%);
+}
+
+.cabeçalho{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: none;
+
+}
+
+.img-header {
+    
+
+    width: 5em;
+    
+}
+.menu-cabeçalho {
+    
+    display:flex;
+    gap: 50px;
+    padding-inline-start: 622px;
+    
+
+
+    
+
+
+
+}
+.cabeçalho-itens {
+    
+    font-family: 'Bungee', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: 10;
+    font-size: 15px;
+    
+    
+
+}
+.cabeçalho-itens:hover {
+    color: #000000;
+    background-color: #a093a27e;
+    border-radius: 16px;
+    font-size: 97%;
+    
+    
+
+}
+.conteudo{
+    margin-bottom: 1px;
+    border-top: 0.4px solid #FFF2E7;
+    
+
+}
+
+.conteudo-principal{
+
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+   justify-content: space-around;
+
+}
+.conteudo-principal-escrito{
+
+display: flex;
+flex-direction: column;
+gap: 22px;
+padding-left: 80px;
+
+}
+.h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 1;
+    font-size: 75px;
+    color: whitesmoke;
+}
+.h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 1em;
+
+
+
+}
+.ola{
+
+    font-size: 2em;
+}
+.button{
+    color: aliceblue;
+font-family: 'Bungee', cursive;
+background-color: #0000003a;
+width: 185px;
+height: 60px;
+border: none;
+border-radius: 25px;
+box-shadow: 4px 4px 4px #a4d0e9
+
+}
+
+.button:hover {
+
+background-color: rgba(236, 214, 196, 0.253);
+
+}
+
+.img-main {
+
+height: 29em;
+animation-name: fly;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+.conteudo-secundario {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 54px;
+margin-top: 42px;
+
+}
+.conteudo-secundario-titulo {
+    font-family: 'Bungee', cursive;
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    color: white;
+    margin-bottom: 15px;
+    
+ 
+
+    
+
+}
+.conteudo-secundario-paragrafo{
+
+    font-family: 'Roboto', sans-serif;
+    color: rgb(2, 0, 0);
+    border-radius: 100px;
+    font-size: 25px;
+    
+
+
+
+
+}
+.fernandinho {
+ color: #000000;
+
+}
+ 
+.rodape{
+    background-image: radial-gradient(circle at 50% 50%, #0088c4 0, #0087d5 4.55%, #0086e4 9.09%, #0085f1 13.64%, #0083fb 18.18%, #007fff 22.73%, #007bff 27.27%, #0076ff 31.82%, #0070ff 36.36%, #0068ff 40.91%, #005efc 45.45%, #5353f2 50%, #7e45e6 54.55%, #9c34d7 59.09%, #b319c6 63.64%, #c600b5 68.18%, #d400a2 72.73%, #de008e 77.27%, #e5007a 81.82%, #e90066 86.36%, #ea0053 90.91%, #e8003f 95.45%, #e4002c 100%);
+    padding: 2px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.img-rodape {
+
+    height: 68px;
+    display: block;
+    margin: 0 auto;
+}
+
+.copy {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding-left: 400px;    
+    padding-top: 50px;
+    font-size: 15px;
+
+
+}
+
